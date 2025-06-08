@@ -6,7 +6,7 @@ class message implements printable
 {
 	public void print()
 	{
-		System.out.println("Hello from interface");
+		System.out.println("Hi from interface");
 	}
 	}
 public class InterfaceExampe
