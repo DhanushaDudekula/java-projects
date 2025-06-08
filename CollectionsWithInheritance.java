@@ -36,9 +36,9 @@ class Employee extends Person {
 
 public class CollectionsWithInheritance {
     public static void main(String[] args) {
-        Employee e1 = new Employee("Alice", 25, "HR");
-        Employee e2 = new Employee("Bob", 30, "IT");
-        Employee e3 = new Employee("Charlie", 22, "Finance");
+        Employee e1 = new Employee("redu", 20, "HR");
+        Employee e2 = new Employee("harsha", 19, "IT");
+        Employee e3 = new Employee("shiva", 22, "Finance");
 
         ArrayList<Employee> arrayList = new ArrayList<>();
         arrayList.add(e1);
