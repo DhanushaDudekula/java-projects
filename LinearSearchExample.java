@@ -2,8 +2,8 @@ package hello;
 
 public class LinearSearchExample {
     public static void main(String[] args) {
-        int[] numbers = {5, 8, 2, 9, 3, 5}; // array to search
-        int target = 9;                     // value to find
+        int[] numbers = {6, 18, 1, 90, 32, 56}; // array to search
+        int target = 48;                     // value to find
         boolean found = false;
 
         for (int i = 0; i < numbers.length; i++) {
