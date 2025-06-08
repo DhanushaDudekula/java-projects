@@ -4,8 +4,8 @@ public class BinarySearchExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] numbers = {2,4,5,7,8,9};
-		int target = 8;
+		int[] numbers = {1,4,3,6,8,10};
+		int target = 10;
 		int left = 0;
 		int right = numbers.length-1;
 		boolean found = false;
