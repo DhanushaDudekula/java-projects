@@ -5,6 +5,6 @@ class StringReverser {
     }
 
     public static void main(String[] args) {
-        System.out.println(new StringReverser().reverse("hello"));
+        System.out.println(new StringReverser().reverse("dhanu"));
     }
 }
