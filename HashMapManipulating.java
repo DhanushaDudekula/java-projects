@@ -9,18 +9,18 @@ public class HashMapManipulating {
         HashMap<Integer, String> students = new HashMap<Integer,String>();
 
         // Add 5 students: roll number -> name
-        students.put(101, "Alice");
-        students.put(102, "Bob");
-        students.put(103, "Charlie");
-        students.put(104, "Teja");
-        students.put(105, "Sarayu");
+        students.put(10, "Arun");
+        students.put(20, "Bobby");
+        students.put(13, "Chaithu");
+        students.put(4, "Teja");
+        students.put(15, "Sravs");
         System.out.println(students);
-        students.remove(103);
-  System.out.println("after removal of roll number 103:"+students);
+        students.remove(13);
+  System.out.println("after removal of roll number 13:"+students);
        
 
           // ✅ 1. Update student name for roll number 105
-          students.put(105, "Kiran"); // Updates "Sarayu" to "Kiran"
+          students.put(15, "Kiran"); // Updates "Sarayu" to "Kiran"
           System.out.println("After update (roll no 105 renamed): " + students);
 
           // ✅ 2. Check if a key or value exists
