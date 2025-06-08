@@ -26,12 +26,12 @@ public class AllList1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList<String> student=new ArrayList<>();
-		student.add("hi");
-		student.add("hello");
+		student.add("dhanu");
+		student.add("aayan");
 		System.out.println(student);
 		LinkedList<String> students=new LinkedList<>();
-		students.add("hee");
-		students.add("kee");
+		students.add("yashu");
+		students.add("baasi");
 		System.out.println(students);
 	}
 
